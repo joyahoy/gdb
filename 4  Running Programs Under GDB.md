@@ -57,4 +57,16 @@
 | 设置环境变量             | `set env VAR=value`           |
 | 禁用地址随机化           | `set disable-randomization on`|
 
-通过以上命令组合，可覆盖大多数调试启动需求。更多细节参考 [GDB 官方文档](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)。
+通过以上命令组合，可覆盖大多数调试启动需求。更多细节参考 [GDB 官方文档](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Starting.html#Starting)。  
+
+### Your Program’s Working Directory
+`set cwd [directory]`
+
+`show cwd`  
+
+`cd [directory]`
+
+`pwd`
+
+ 
+
